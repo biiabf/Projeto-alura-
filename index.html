@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Flashcard</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>Meu Flashcard</h1>
+        <p>Toque no cartão para virar</p>
+    </header>
+
+    <main>
+        <article class="cartao" onclick="this.classList.toggle('virado')">
+
+            <div class="frente">
+                <h2>🐧 Pinguim</h2>
+                <p>Toque para descobrir!</p>
+            </div>
+
+            <div class="verso">
+                <h2>Você sabia?</h2>
+                <p>Os pinguins são aves que não voam e são excelentes nadadores.</p>
+                <p>Toque novamente para voltar.</p>
+            </div>
+
+        </article>
+    </main>
+
+</body>
+</html>
